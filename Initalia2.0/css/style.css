@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+ 
+  }
+
+  header {
+    background-color: #162623;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header img{
+    width: 159px;
+    height: 76px;
+  }
+  
+  header ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header ul li {
+    margin-right: 20px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .cotizar_boton {
+    background-color: orange;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #162623;
+    min-width: 200px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown_content {
+    display: block;
+  }
+  
+  .dropdown_content a {
+    display: block;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+  } 
+
+  .frase_imagen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .frase_imagen img {
+    max-width: 50%;
+  }
+  
+
+  .proyectos_section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .proyectos-section h2 {
+    color: orange;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    color: orange;
+  }
+
+  footer {
+    background-color: #162623;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin-right: 20px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+
+  header a:hover,
+  footer a:hover,
+  .dropdown:hover .dropdown-content a:hover,
+  .cotizar-btn:hover {
+    color: orange;
+  }
+
+.recomendaciones_section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .recomendaciones_section h2 {
+    color: orange;
+  }
+  
+  .comentarios_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .comentario {
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .info_cliente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .estrellas {
+    font-size: 18px;
+  }
+  
+  .texto_comentario {
+    text-align: left;
+  }
+  
+  .texto_comentario hr {
+    border: 0.5px solid #000;
+    margin: 10px 0;
+  }
+  
+  .comentario_generico {
+    font-size: 14px;
+  }
+  
+  .datos_satisfaccion {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .dato {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .dato h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .container-nosotros{
+    text-align: center;
+    
+  }
+  .container-nosotros p{
+    padding: 25px;
+  }
+  .container-nosotros h2{
+    color: orange;
+  }
+  .container-img{
+  display: flex;
+  }
+  .img-nosotros{
+    width: 30%;
+  }
+.form-contactenos{
+  width: 400px;
+  background-color: whitesmoke;
+  padding: 30px;
+  margin: 30px 10px;
+  border-radius: 4px;
+  border: solid 1px black;
+}
+.form-contactenos h1{
+  color: orange;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.form-contactenos p{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.box-form{
+  border-radius: 10px;
+  width: 80%;
+  height: 50px;
+  margin: 5px;
+}
+.buton{
+  width: 80%;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+}
+.container-contactenos{
+  display: flex;
+}
+.aside-contactenos{
+  margin: 20px 150px 10px 100px;
+}
+.container-servicio{
+  display: flex;
+}
+.container-servicio aside img{
+  width: 450px;
+  height: 500px;
+}
+.aside-servicio{
+  margin: 20px 5px 10px 200px;
+  background-color: wheat;
+  border-radius: 12px;
+}
+.form-servicio{
+  width: 400px;
+  background-color: whitesmoke;
+  padding: 30px;
+  margin: 30px 10px;
+  border-radius: 4px;
+  border: solid 1px black;
+}
+.form-servicio h1{
+  color: orange;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.form-servicio p{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.box-servicio{
+  border-radius: 10px;
+  width: 40%;
+  height: 50px;
+  margin: 5px;
+}
+.box-mensaje{
+  border-radius: 10px;
+  width: 85%;
+  height: 70px;
+  margin: 5px;
+}
+.container-cotiza{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+  
